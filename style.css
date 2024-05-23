@@ -328,6 +328,53 @@ ul{
 
 }
 
+@media (max-width: 767px) {
+    .foto-gym {
+        display: flex;
+        margin: 0 auto; 
+
+        height: 370px;
+        width:  620px;
+        padding: 10px 0px ;
+     
+    }
+
+    .imagen-texto {
+
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(42, 42, 42, 0.701);
+        border-radius: 15px;
+    }
+
+    .imagen-texto span {
+      color: green;
+    }
+
+    .imagen-texto .p-info {
+        color: white;
+        background-color: transparent;
+        font-style: normal;
+
+    }
+
+    .mid_data .gym_list {
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(42, 42, 42, 0.701);
+        border-radius: 15px;
+    }
+
+    .mid_data .vacio {
+        margin: 10px;
+        text-align: center;
+        padding-bottom:450px;
+        background-color: rgba(42, 42, 42, 0.701);
+        border-radius: 15px;
+    }
+
+
+}
 
 
 @media (max-width: 490px) {
